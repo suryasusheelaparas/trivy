@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_REPO = ' https://github.com/suryasusheelaparas/trivy.git'
-        GIT_BRANCH = ‘main'
+        GIT_BRANCH = 'main'
         DOCKER_REGISTRY = 'localhost:5000'
         IMAGE_NAME = 'myimage'
         IMAGE_TAG = 'latest'
